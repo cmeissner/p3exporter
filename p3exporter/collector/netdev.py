@@ -66,7 +66,8 @@ def _get_iface_stats():
 
     Get interface statistics from proc filesystem and transform it to a dictionary.
 
-    :return: Returns a dict of dicts. One dict for each interface and one key value pair for each interface statistic in the inner dict.
+    :return: Returns a dict of dicts. One dict for each interface and one key value pair
+             for each interface statistic in the inner dict.
     :rtype: dict
     """
     ifaces = {}

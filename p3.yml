@@ -1,8 +1,8 @@
 exporter_name: "Python prammable Prometheus exporter"
 collectors:
   - p3exporter.collector.example
-  - loadavg
-  - netdev
+  # - loadavg
+  # - netdev
 collector_opts:
   netdev:
     whitelist:
